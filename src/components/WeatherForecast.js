@@ -44,7 +44,7 @@ const WeatherForecast = () =>{
         <div className="app">
           <WeatherSearch onSearchHandler={onSearchHandler}/> 
           {
-             error ? <h1>The city name is invalid</h1> : null 
+             error ? <div className="error">The city name is invalid</div> : null 
           }  
            <div className="townDisplay">
                {(!isLoading&!error)?<h1>{town}</h1>:null}

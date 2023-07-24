@@ -86,6 +86,14 @@ margin: auto;
   padding: 4px;
 }
 
+.error{
+  display: flex;
+  font-size: large;
+  color: red;
+  position: relative;
+  justify-content: center;
+}
+
 .townDisplay{
   display: flex;
   position: relative;

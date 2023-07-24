@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import WeatherForecast from './components/WeatherForecast';
 import './App.css';
 
